@@ -159,6 +159,14 @@ export default class MenuBuilder {
           click() {
             shell.openExternal('https://electronjs.org');
           },
+          submenu: [
+            {
+              label: '我的世界',
+              click() {
+                shell.openExternal('https://www.baidu.com');
+              },
+            },
+          ],
         },
         {
           label: 'Documentation',
